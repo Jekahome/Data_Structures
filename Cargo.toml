@@ -1,0 +1,26 @@
+[package]
+name = "ds"
+version = "0.1.0"
+authors = ["Eugene Yaroshenko <yaroshjeka@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[example]]
+name = "linked-list"
+path ="examples/Data_Structures_2/Linked_list.rs"
+
+[[example]]
+name = "linked-list-enum"
+path ="examples/Data_Structures_2/LinkeList_enum.rs"
+
+[[example]]
+name = "linked-list-link"
+path ="examples/Data_Structures_2/Linked_list_link.rs"
+
+[[example]]
+name = "mem"
+path ="examples/mem.rs"
