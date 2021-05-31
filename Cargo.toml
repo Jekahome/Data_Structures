@@ -18,9 +18,6 @@ name = "linked-list-enum"
 path ="examples/Data_Structures_2/LinkeList_enum.rs"
 
 [[example]]
-name = "linked-list-link"
-path ="examples/Data_Structures_2/Linked_list_link.rs"
-
-[[example]]
 name = "mem"
 path ="examples/mem.rs"
+
