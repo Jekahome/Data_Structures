@@ -21,3 +21,6 @@ path ="examples/Data_Structures_2/LinkeList_enum.rs"
 name = "mem"
 path ="examples/mem.rs"
 
+[[example]]
+name = "queue"
+path ="examples/Data_Structures_2/Queue.rs"
