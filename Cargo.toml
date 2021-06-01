@@ -21,3 +21,6 @@ path ="examples/Data_Structures_2/LinkeList_enum.rs"
 name = "mem"
 path ="examples/mem.rs"
 
+[[example]]
+name = "linked-list-generic"
+path ="examples/Data_Structures_2/Linked_list_generic.rs"
