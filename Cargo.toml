@@ -30,6 +30,11 @@ name = "queue"
 path ="examples/Data_Structures_1/Queue.rs"
 
 [[example]]
+name = "queue-rc"
+path ="examples/Data_Structures_1/Queue_rc.rs"
+
+
+[[example]]
 name = "linked-list-generic"
 path ="examples/Data_Structures_2/Linked_list_generic.rs"
 
