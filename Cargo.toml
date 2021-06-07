@@ -8,19 +8,6 @@ edition = "2018"
 
 [dependencies]
 
-
-[[example]]
-name = "linked-list"
-path ="examples/Data_Structures_2/Linked_list.rs"
-
-[[example]]
-name = "linked-list-enum"
-path ="examples/Data_Structures_2/Linke_list_enum.rs"
-
-[[example]]
-name = "mem"
-path ="examples/mem.rs"
-
 [[example]]
 name = "stack"
 path ="examples/Data_Structures_1/Stack.rs"
@@ -33,8 +20,24 @@ path ="examples/Data_Structures_1/Queue.rs"
 name = "queue-rc"
 path ="examples/Data_Structures_1/Queue_rc.rs"
 
+[[example]]
+name = "linked-list"
+path ="examples/Data_Structures_2/Linked_list.rs"
+
+[[example]]
+name = "linked-list-enum"
+path ="examples/Data_Structures_2/Linked_list_enum.rs"
 
 [[example]]
 name = "linked-list-generic"
 path ="examples/Data_Structures_2/Linked_list_generic.rs"
+
+[[example]]
+name = "mem"
+path ="examples/mem.rs"
+
+
+
+
+
 
