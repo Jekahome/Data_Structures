@@ -15,7 +15,7 @@ path ="examples/Data_Structures_2/Linked_list.rs"
 
 [[example]]
 name = "linked-list-enum"
-path ="examples/Data_Structures_2/LinkeList_enum.rs"
+path ="examples/Data_Structures_2/Linke_list_enum.rs"
 
 [[example]]
 name = "mem"

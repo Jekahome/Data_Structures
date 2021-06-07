@@ -42,6 +42,12 @@ impl <T> Node<T> where T:Copy+Debug{
            }
         return false;
     }
+    fn peek_all<'b>(&'b self,buf:&mut Vec<&'b T>){
+        buf.push(&self.data);
+        if self.next.is_some(){
+            self.next.as_ref().unwrap().peek_all(buf);
+        }
+    }
 }
 
 
@@ -82,6 +88,11 @@ impl <T>Queue<T> where T:Copy+Debug{
             return Some(&self.head.as_ref().unwrap().data);
         }
         return None;
+    }
+    fn peek_all<'b>(&'b self,buf:&mut Vec<&'b T>){
+        if self.head.is_some(){
+            self.head.as_ref().unwrap().peek_all(buf);
+        }
     }
     fn length(&self) -> usize {
         self.count
@@ -150,6 +161,7 @@ mod tests {
         assert_eq!(queue.length(),2);
         assert!(!queue.is_empty());
     }
+
     #[test]
     fn test_dequeue() {
         let mut node1 = Node::<i32>::new(1);
@@ -170,6 +182,21 @@ mod tests {
         assert_eq!(queue.length(),0);
         assert!(queue.is_empty());
 
+    }
+
+    #[test]
+    fn test_peek_all() {
+        let mut node1 = Node::<i32>::new(1);
+        let mut node2 = Node::<i32>::new(2);
+        let mut node3 = Node::<i32>::new(3);
+
+        let mut q = Queue::new(Some(Rc::new(node1)));
+        q.enqueue(Some(Rc::new(node2)));
+        q.enqueue(Some(Rc::new(node3)));
+
+        let mut buf:Vec<&i32> = vec![];
+        &q.peek_all(&mut buf);
+        assert_eq!(buf,vec![&1,&2,&3]);
     }
 
 }
