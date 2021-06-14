@@ -11,3 +11,5 @@ fn main() {
     println!("Linked list: $cargo run --example linked-list-generic");
 
 }
+
+// бинарный поиск https://shane-o.dev/blog/binary-search-rust-part-2
