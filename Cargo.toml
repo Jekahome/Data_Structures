@@ -36,6 +36,9 @@ path ="examples/Data_Structures_2/Linked_list_generic.rs"
 name = "mem"
 path ="examples/mem.rs"
 
+[[example]]
+name = "binary-tree"
+path ="examples/Tree_based_DSA_1/Binary_tree.rs"
 
 
 

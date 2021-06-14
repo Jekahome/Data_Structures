@@ -19,26 +19,26 @@
 - [Decrease Key and Delete node from Fibonacci Heap]
 
 ## Tree based DSA (I)
-- Tree Data Structure
-- Tree Traversal
-- Binary Tree
-- Full Binary Tree
-- Perfect Binary Tree
-- Complete Binary Tree
-- Balanced Binary Tree
-- Binary Search Tree
-- AVL Tree
+- [Tree Data Structure]
+- [Tree Traversal]
+- [Binary Tree]
+- [Full Binary Tree]
+- [Perfect Binary Tree]
+- [Complete Binary Tree]
+- [Balanced Binary Tree]
+- [Binary Search Tree]
+- [AVL Tree]
 
 ## Tree based DSA (II)
-- B Tree
-- Insertion into B-tree
-- Deletion from B-tree
-- B+ Tree
-- Insertion on a B+ Tree
-- Deletion from a B+ Tree
-- Red Black Tree
-- Insertion in Red Black Tree
-- Deletion from Red Black Tree
+- [B Tree]
+- [Insertion into B-tree]
+- [Deletion from B-tree]
+- [B+ Tree]
+- [Insertion on a B+ Tree]
+- [Deletion from a B+ Tree]
+- [Red Black Tree]
+- [Insertion in Red Black Tree]
+- [Deletion from Red Black Tree]
 
 ## Graph based DSA
 - Graph Data Structure
@@ -138,6 +138,24 @@
 [Heap Data Structure]:(https://www.programiz.com/dsa/heap-data-structure)
 [Fibonacci Heap]:(https://www.programiz.com/dsa/fibonacci-heap)
 [Decrease Key and Delete node from Fibonacci Heap]:(https://www.programiz.com/dsa/decrease-key-and-delete-node-from-a-fibonacci-heap)
+[Tree Data Structure]:(https://www.programiz.com/dsa/trees)
+[Tree Traversal]:(https://www.programiz.com/dsa/tree-traversal)
+[Binary Tree]:(https://www.programiz.com/dsa/binary-tree)
+[Full Binary Tree]:(https://www.programiz.com/dsa/full-binary-tree)
+[Perfect Binary Tree]:(https://www.programiz.com/dsa/perfect-binary-tree)
+[Complete Binary Tree]:(https://www.programiz.com/dsa/complete-binary-tree)
+[Balanced Binary Tree]:(https://www.programiz.com/dsa/balanced-binary-tree)
+[Binary Search Tree]:(https://www.programiz.com/dsa/binary-search-tree)
+[AVL Tree]:(https://www.programiz.com/dsa/avl-tree)
+[B Tree]:()
+[Insertion into B-tree]:()
+[Deletion from B-tree]:()
+[B+ Tree]:()
+[Insertion on a B+ Tree]:()
+[Deletion from a B+ Tree]:()
+[Red Black Tree]:()
+[Insertion in Red Black Tree]:()
+[Deletion from Red Black Tree]:()
 []:()
 []:()
 []:()
